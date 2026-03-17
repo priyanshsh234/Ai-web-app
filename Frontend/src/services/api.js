@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5001/api"
+  baseURL: "https://ai-web-app-cys6.onrender.com/api"
 });
 
 export const enhanceText = (text) =>
